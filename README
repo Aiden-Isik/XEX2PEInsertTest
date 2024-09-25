@@ -1,0 +1,33 @@
+XEX2 PE Insertion Test
+
+Copyright (c) 2024 Aiden Isik
+
+This is a test program made during the planning of the FreeChainXenon
+project, a fully free/libre homebrew toolchain for the Xbox 360. It
+takes an Xbox 360 PE basefile file path as parameter 1 and an output file
+path as parameter 2 and inserts the PE file along with some descriptor
+info into the output file.
+
+The program does not check for file validity and has no actual checks for
+failures. It is expected you give it a valid PE basefile.
+
+Prerequisites:
+ - GCC (on Debian: sudo apt install build-essential)
+
+To compile: gcc main.c -o xex2peinserttest
+
+Usage: ./xex2peinserttest <pe basefile> <output file>
+-----
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
