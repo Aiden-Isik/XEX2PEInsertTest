@@ -29,10 +29,6 @@
 #define LITTLE_ENDIAN_FILE false
 #define BIG_ENDIAN_FILE true
 
-// XEX2
-#define IMAGE_INFO_OFFSET 8
-#define IMAGE_INFO_SIZE 0x174
-
 // These structs should be converted to BIG ENDIAN immediately before being written out
 struct __attribute__((packed)) dataDescriptor
 {
